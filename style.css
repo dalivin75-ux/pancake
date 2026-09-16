@@ -1,0 +1,121 @@
+/* Grundläggande inställningar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #222;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Huvudcontainer som ramar in sidan med den blå ramen från skissen */
+.page-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border: 3px solid #3b82f6; /* Den blå ytterramen */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Toppbild */
+.hero-image-container {
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Innehållsområde */
+.content {
+    padding: 25px;
+}
+
+/* Sektionslådor med de blå, streckade ramarna */
+.section-box {
+    border: 1px dashed #60a5fa;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #fafafa;
+}
+
+.section-box:last-child {
+    margin-bottom: 0;
+}
+
+/* Typografi */
+.main-title {
+    color: #b91c1c; /* Röd färg på huvudrubriken */
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 0.95rem;
+    color: #4b5563;
+}
+
+.sub-text {
+    font-size: 0.9rem;
+    color: #4b5563;
+    margin-bottom: 12px;
+}
+
+/* Listor */
+.ingredient-list, .instruction-list {
+    padding-left: 20px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #374151;
+}
+
+.ingredient-list li, .instruction-list li {
+    margin-bottom: 6px;
+}
+
+/* Bildgalleri längst ner */
+.image-gallery {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.image-wrapper {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.side-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.side-images img {
+    height: 50%;
+}
