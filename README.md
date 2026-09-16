@@ -30,7 +30,22 @@ Denna sida visar:
 2. Dubbelklicka på `index.html` eller starta en enkel lokal server om du föredrar det.
 3. Se receptet i webbläsaren.
 
+## Senaste ändringar
+
+> Denna sektion ska uppdateras vid varje commit för att dokumentera den senaste ändringen.
+
+### 2026-09-16
+- README uppdaterad med projektbeskrivning, körinstruktioner och formell changelog.
+- Versionshistorik dokumenterad för nuvarande version.
+- Projektet förberett för fortsatt utveckling och uppdateringar.
+
 ## Changelog
+
+### [Unreleased]
+
+#### Added
+- Dokumentation för senaste ändringar i README.
+- Tydligare struktur för att uppdatera projektets historik vid varje commit.
 
 ### [1.0.0] - 2026-09-16
 
