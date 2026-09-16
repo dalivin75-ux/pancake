@@ -19,7 +19,6 @@ body {
     width: 100%;
     max-width: 800px;
     background-color: #ffffff;
-    border: 3px solid #3b82f6; /* Den blå ytterramen */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -44,10 +43,9 @@ body {
 
 /* Sektionslådor med de blå, streckade ramarna */
 .section-box {
-    border: 1px dashed #60a5fa;
     padding: 20px;
     margin-bottom: 25px;
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 
 .section-box:last-child {

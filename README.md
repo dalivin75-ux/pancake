@@ -50,9 +50,15 @@ Denna sida visar:
 
 ## Versionshistorik
 
-| Version | Datum | Ändring |
+| Version | Datum | Beskrivning |
 | --- | --- | --- |
-| 1.0.0 | 2026-09-16 | Första publicerade versionen av pannkaksreceptssidan med layout, ingredienser, instruktioner och bildgalleri. |
+| 1.0.0 | 2026-09-16 | Första versionen publicerad. Innehåller receptets huvudlayout, ingredienser, instruktioner, bildgalleri och grundläggande styling. |
+
+### Release note för 1.0.0
+- Skapad grundläggande HTML-struktur för recepten.
+- Lagt till visuell layout med CSS.
+- Infogat hero-bild och serveringsförslag.
+- Utformad med lättläst, statisk webbplatsdesign.
 
 ## Författare
 
