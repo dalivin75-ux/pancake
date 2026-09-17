@@ -14,7 +14,7 @@ body {
     justify-content: center;
 }
 
-/* Huvudcontainer som ramar in sidan med den blå ramen från skissen */
+/* Huvudcontainer */
 .page-container {
     width: 100%;
     max-width: 800px;
@@ -36,23 +36,28 @@ body {
     object-fit: cover;
 }
 
-/* Innehållsområde */
+/* Innehåll */
 .content {
     padding: 25px;
 }
 
-/* Sektionslådor med de blå, streckade ramarna */
+/* Sektioner ingredienser och så här gör du */
 .section-box {
     padding: 20px;
     margin-bottom: 25px;
     background-color: #ffffff;
 }
-
+/* Sektioner ingredienser och så här gör du */
+.section-box-ingress {
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #fcfcfc;
+}
 .section-box:last-child {
     margin-bottom: 0;
 }
 
-/* Typografi */
+/* header */
 .main-title {
     color: #b91c1c; /* Röd färg på huvudrubriken */
     font-size: 1.5rem;
@@ -88,7 +93,7 @@ body {
     margin-bottom: 6px;
 }
 
-/* Bildgalleri längst ner */
+/* Bilder längst ner */
 .image-gallery {
     display: flex;
     gap: 15px;
