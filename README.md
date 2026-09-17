@@ -35,25 +35,29 @@ Denna sida visar:
 > Denna sektion ska uppdateras vid varje commit för att dokumentera den senaste ändringen.
 
 ### 2026-09-17
-- README uppdaterad med ny patch-version 1.0.1.
-- Versionshistorik och changelog uppdaterade för att dokumentera ändringar sedan release 1.0.0.
-- Projektet förberett för fortsatt förbättring och dokumentation av framtida ändringar.
+- Uppdaterad HTML-mall med ny hero-bild och serveringsförslag.
+- Justerad CSS-layout för att förbättra struktur, spacing och presentation av sektioner.
+- README förlängd med dokumentation för ändringar i HTML/CSS samt version 1.0.1.
 
 ## Changelog
 
 ### [1.0.1] - 2026-09-17
 
 #### Added
-- Dokumentation för senaste ändringar i README.
-- Tydligare struktur för att följa projektets historik vid varje commit.
-- Formell patch-version för att beskriva ändringar sedan den ursprungliga releasen.
+- Dokumentation för de senaste ändringarna i HTML och CSS.
+- Tydligare release-notes för patch-versionen.
+- Uppdaterad versionshistorik i README.
 
 #### Changed
-- Uppdaterad versionshistorik med ny patch-release.
-- Förbättrad struktur för release-notes i README.
+- Bytte hero-bildens källa från `image_c8d4ea.jpg` till `hero.jpg`.
+- Lade till inbäddad ingresssektion i huvudinnehållet.
+- Förbättrade serveringssektionen med nya bilder och bildtexter.
+- Justerade layouten i CSS för sektioner, titlar, listor och bildgalleri.
+- Rensade och strukturerade stilmallen för bättre läsbarhet och konsekvens.
 
 #### Fixed
-- Ingen produktspecifik bugfix i denna patch-version; fokus låg på dokumentation och versionshantering.
+- Korrigerade typsnitt, spacing och layoutvillkor för sektioner i CSS.
+- Förbättrade visuell balans i den statiska webbplatsen.
 
 ### [1.0.0] - 2026-09-16
 
@@ -75,13 +79,14 @@ Denna sida visar:
 
 | Version | Datum | Beskrivning |
 | --- | --- | --- |
-| 1.0.1 | 2026-09-17 | Patch-version som dokumenterar uppdaterad changelog, versionshistorik och senaste ändringar sedan 1.0.0. |
+| 1.0.1 | 2026-09-17 | Patch-version som dokumenterar uppdaterad HTML/CSS-layout, ny hero-bild, serveringsbilder och förbättrad README-dokumentation. |
 | 1.0.0 | 2026-09-16 | Första versionen publicerad. Innehåller receptets huvudlayout, ingredienser, instruktioner, bildgalleri och grundläggande styling. |
 
 ### Release note för 1.0.1
-- README uppdaterad för att spegla senaste ändringar.
-- Changelog förfinat för att stödja kontinuerlig dokumentation.
-- Versionshistoriken kompletterad med patch-releaseinformation.
+- Uppdaterad HTML-struktur med ny hero-bild och förbättrad ingresssektion.
+- Serveringssektionen förbättrad med nya bilder och bildtexter.
+- CSS justerad för att förbättra layout, spacing, listor och presentation.
+- README uppdaterad för att spegla de faktiska ändringarna sedan 1.0.0.
 
 ### Release note för 1.0.0
 - Skapad grundläggande HTML-struktur för recepten.
