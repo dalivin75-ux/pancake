@@ -48,7 +48,7 @@ body {
 
 /* Sektioner ingredienser och så här gör du */
 .section-box {
-    padding: 20px;
+    padding: 2px;
     margin-bottom: 25px;
     background-color: #ffffff;
     width: 1184;
@@ -58,7 +58,7 @@ body {
 }
 /* Sektioner ingredienser och så här gör du */
 .section-box-ingress {
-    padding: 20px;
+    padding: 2px;
     height: 54px;
     margin-bottom: 16px;
     background-color: #ebebeb;
