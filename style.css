@@ -6,7 +6,12 @@
 }
 
 body {
-    font-family: Open sans, Helvetica, Arial
+    font-family: Open, Helvetica, Arial;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
     background-color: #f0f0f0;
     color: #222;
     padding: 20px;
