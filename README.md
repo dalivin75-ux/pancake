@@ -35,11 +35,27 @@ Denna sida visar:
 > Denna sektion ska uppdateras vid varje commit för att dokumentera den senaste ändringen.
 
 ### 2026-09-17
-- Uppdaterad HTML-mall med ny hero-bild och serveringsförslag.
-- Justerad CSS-layout för att förbättra struktur, spacing och presentation av sektioner.
-- README förlängd med dokumentation för ändringar i HTML/CSS samt version 1.0.1.
+- Sidan anpassad för mobilanvändare med responsiv layout och maxbredd 440 px.
+- CSS justerad för att förbättra läsbarhet och layout på små skärmar.
+- README uppdaterad för att dokumentera 2.0.0 och de senaste ändringarna.
 
 ## Changelog
+
+### [2.0.0] - 2026-09-17
+
+#### Added
+- Mobilanpassad responsiv layout för mobilanvändare.
+- Media query för skärmar upp till 440 px.
+- Justerad desktop- och mobilanpassning för bättre användbarhet.
+
+#### Changed
+- Maxbredd för huvudinnehållet satt till 440 px.
+- Layouten optimerad för små skärmar med justerat innehåll, spacing och bilder.
+- README uppdaterad med den nya release-versionen och ändringshistorik.
+
+#### Fixed
+- Korrigerad CSS-layout för sektioner och bildgalleri på smala skärmar.
+- Förbättrad visuell stabilitet i den statiska webbplatsen.
 
 ### [1.0.1] - 2026-09-17
 
@@ -79,8 +95,14 @@ Denna sida visar:
 
 | Version | Datum | Beskrivning |
 | --- | --- | --- |
+| 2.0.0 | 2026-09-17 | Mobilanpassad release med responsiv layout, maxbredd 440 px och förbättrad läsbarhet för mobila besökare. |
 | 1.0.1 | 2026-09-17 | Patch-version som dokumenterar uppdaterad HTML/CSS-layout, ny hero-bild, serveringsbilder och förbättrad README-dokumentation. |
 | 1.0.0 | 2026-09-16 | Första versionen publicerad. Innehåller receptets huvudlayout, ingredienser, instruktioner, bildgalleri och grundläggande styling. |
+
+### Release note för 2.0.0
+- Sidan anpassad för mobilvisning med responsiv layout.
+- Maxbredd för huvudinnehållet satt till 440 px.
+- CSS uppdaterad för bättre läsbarhet, mindre skärmstorlekar och förbättrad användbarhet.
 
 ### Release note för 1.0.1
 - Uppdaterad HTML-struktur med ny hero-bild och förbättrad ingresssektion.

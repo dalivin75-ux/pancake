@@ -22,10 +22,10 @@ body {
 /* Huvudcontainer */
 .page-container {
     width: 100%;
-    max-width: 800px;
+    max-width: 440px;
     background-color: #ffffff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}   
+}
 
 /* Toppbild */
 .hero-image-container {
@@ -51,15 +51,15 @@ body {
     padding: 2px;
     margin-bottom: 25px;
     background-color: #ffffff;
-    width: 1184;
-    height: 279;
+    width: 100%;
+    height: auto;
     gap: 16px;
     opacity: 1;
 }
 /* Sektioner ingredienser och så här gör du */
 .section-box-ingress {
     padding: 20px;
-    height: 54px;
+    min-height: 54px;
     margin-bottom: 16px;
     background-color: #ebebeb;
 }
@@ -69,7 +69,7 @@ body {
 
 /* header */
 .main-title {
-    color: #b91c1c; /* Röd färg på huvudrubriken */
+    color: #b91c1c; 
     font-size: 1.5rem;
     margin-bottom: 12px;
 }
@@ -131,4 +131,41 @@ body {
 
 .side-images img {
     height: 100%;
+}
+
+@media (max-width: 440px) {
+    body {
+        padding: 10px;
+    }
+
+    .page-container {
+        max-width: 100%;
+    }
+
+    .content {
+        padding: 16px;
+    }
+
+    .main-title {
+        font-size: 1.3rem;
+    }
+
+    .section-title {
+        font-size: 1.05rem;
+    }
+
+    .description,
+    .sub-text,
+    .ingredient-list,
+    .instruction-list {
+        font-size: 0.9rem;
+    }
+
+    .image-gallery {
+        flex-direction: column;
+    }
+
+    .side-images {
+        flex-direction: column;
+    }
 }
