@@ -51,11 +51,10 @@ body {
     padding: 20px;
     margin-bottom: 25px;
     background-color: #ffffff;
-
-width: 1184;
-height: 279;
-gap: 16px;
-opacity: 1;
+    width: 1184;
+    height: 279;
+    gap: 16px;
+    opacity: 1;
 }
 /* Sektioner ingredienser och så här gör du */
 .section-box-ingress {
@@ -131,5 +130,5 @@ opacity: 1;
 }
 
 .side-images img {
-    height: 50%;
+    height: 100%;
 }
