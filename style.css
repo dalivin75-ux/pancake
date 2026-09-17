@@ -50,8 +50,9 @@ body {
 /* Sektioner ingredienser och så här gör du */
 .section-box-ingress {
     padding: 20px;
-    margin-bottom: 25px;
-    background-color: #fcfcfc;
+    height: 54px;
+    margin-bottom: 16px;
+    background-color: #ebebeb;
 }
 .section-box:last-child {
     margin-bottom: 0;
