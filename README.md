@@ -34,18 +34,26 @@ Denna sida visar:
 
 > Denna sektion ska uppdateras vid varje commit för att dokumentera den senaste ändringen.
 
-### 2026-09-16
-- README uppdaterad med projektbeskrivning, körinstruktioner och formell changelog.
-- Versionshistorik dokumenterad för nuvarande version.
-- Projektet förberett för fortsatt utveckling och uppdateringar.
+### 2026-09-17
+- README uppdaterad med ny patch-version 1.0.1.
+- Versionshistorik och changelog uppdaterade för att dokumentera ändringar sedan release 1.0.0.
+- Projektet förberett för fortsatt förbättring och dokumentation av framtida ändringar.
 
 ## Changelog
 
-### [Unreleased]
+### [1.0.1] - 2026-09-17
 
 #### Added
 - Dokumentation för senaste ändringar i README.
-- Tydligare struktur för att uppdatera projektets historik vid varje commit.
+- Tydligare struktur för att följa projektets historik vid varje commit.
+- Formell patch-version för att beskriva ändringar sedan den ursprungliga releasen.
+
+#### Changed
+- Uppdaterad versionshistorik med ny patch-release.
+- Förbättrad struktur för release-notes i README.
+
+#### Fixed
+- Ingen produktspecifik bugfix i denna patch-version; fokus låg på dokumentation och versionshantering.
 
 ### [1.0.0] - 2026-09-16
 
@@ -67,7 +75,13 @@ Denna sida visar:
 
 | Version | Datum | Beskrivning |
 | --- | --- | --- |
+| 1.0.1 | 2026-09-17 | Patch-version som dokumenterar uppdaterad changelog, versionshistorik och senaste ändringar sedan 1.0.0. |
 | 1.0.0 | 2026-09-16 | Första versionen publicerad. Innehåller receptets huvudlayout, ingredienser, instruktioner, bildgalleri och grundläggande styling. |
+
+### Release note för 1.0.1
+- README uppdaterad för att spegla senaste ändringar.
+- Changelog förfinat för att stödja kontinuerlig dokumentation.
+- Versionshistoriken kompletterad med patch-releaseinformation.
 
 ### Release note för 1.0.0
 - Skapad grundläggande HTML-struktur för recepten.
