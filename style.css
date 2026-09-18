@@ -103,7 +103,7 @@ body {
 .ingredient-list li, .instruction-list li {
     margin-bottom: 6px;
 }
-.ingredient-list li::marker {
+.ingredient-list li, .instruction-list li::marker {
   color: #fab002;
 }
 /* Bilder längst ner */
