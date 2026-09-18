@@ -93,6 +93,7 @@ body {
 
 /* Listor */
 .ingredient-list, .instruction-list {
+    list-style-type: square;
     padding-left: 20px;
     font-size: 0.95rem;
     line-height: 1.6;
